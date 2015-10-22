@@ -20,4 +20,12 @@ public class TennisGameTest
 		currentGame2.addPointToServer();
 		Assert.assertEquals(TennisGame.FIFTEEN_LOVE,currentGame2.getScore());
 	}
+	
+	@Test
+	public void testing0To15TennisGameSouldReturnScoreLoveFifteen()
+	{
+		TennisGame currentGame3 = new TennisGame();
+		currentGame3.addPointToReceiver();
+		Assert.assertEquals("love-fifteen",currentGame3.getScore());
+	}
 }
