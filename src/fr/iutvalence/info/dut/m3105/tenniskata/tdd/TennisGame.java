@@ -24,4 +24,9 @@ public class TennisGame
 		this.score = TennisGame.FIFTEEN_LOVE;
 	}
 
+	public void addPointToReceiver()
+	{
+		this.score = "love-fifteen";
+	}
+
 }
