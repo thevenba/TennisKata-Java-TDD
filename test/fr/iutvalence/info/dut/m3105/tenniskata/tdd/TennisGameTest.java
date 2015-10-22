@@ -13,4 +13,11 @@ public class TennisGameTest
 		Assert.assertEquals(TennisGame.LOVE_ALL,currentGame.getScore());
 	}
 	
+	@Test
+	public void testing15To0TennisGameShouldReturnScoreFifteenLove()
+	{
+		TennisGame currentGame2 = new TennisGame();
+		currentGame2.setScore("fifteen-love");
+		Assert.assertEquals("fifteen-love",currentGame2.getScore());
+	}
 }
