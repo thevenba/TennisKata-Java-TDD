@@ -19,10 +19,9 @@ public class TennisGame
 		return this.score;
 	}
 
-	public void setScore(String score)
+	public void addPointToServer()
 	{
-		this.score = score;
-		
+		this.score = TennisGame.FIFTEEN_LOVE;
 	}
 
 }

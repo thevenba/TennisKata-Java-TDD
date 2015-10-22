@@ -17,7 +17,7 @@ public class TennisGameTest
 	public void testing15To0TennisGameShouldReturnScoreFifteenLove()
 	{
 		TennisGame currentGame2 = new TennisGame();
-		currentGame2.setScore(TennisGame.FIFTEEN_LOVE);
+		currentGame2.addPointToServer();
 		Assert.assertEquals(TennisGame.FIFTEEN_LOVE,currentGame2.getScore());
 	}
 }
